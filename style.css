@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: black;
+  color: white;
+}
+
+.title{
+  text-transform: uppercase;
+}
+
+.textinput{
+  color: black;
+}
+
+input[type = button]{
+  color: black;
+  background: white;
+}
+
+input[type = button]:hover{
+  background: lightblue;
+}
+
+.container{
+  text-align: center;
+}
